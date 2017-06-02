@@ -1,0 +1,55 @@
+<h1>Geospatial Company Project Database</h1>
+<div id="tableDiv"></div>
+</br>
+<div id="input">
+	<fieldset>
+		<legend>Enter New Employee Data here:</legend>
+		<div>
+			<label for="first_name">First Name: </label>
+			<input type="text" name="first_name" id="first_name" required >
+		</div>
+		<br>
+		<div>
+			<label for="last_name">Last Name: </label>
+			<input type="text" name="last_name" id="last_name" required > 
+		</div>
+		<br>
+		<div>
+			<label for="job_title">Job Title: </label>
+			<input type="text" name="job_title" id="job_title" required > 
+		</div>
+		</br>
+		<div>
+			<label for="Department">Department: </label>
+			<input type="text" name="department" id="department" required > 
+		</div>
+		<br>
+		<div>
+			<label for="Salary">Salary: </label>
+			<input type="text" name="salary" id="salary" required > 
+		</div>
+		<br>
+		<div id= officeDiv>
+			<label for="office">Office: </label>
+			<select name="office" id="officeLocation"></select>
+		</div>
+		<br>
+		<input type="submit" id="inputSubmit">	
+	</fieldset>
+</div>
+</br>
+<div id= "filterDiv">
+	<form>
+		<legend>Filter Employees by Job Title</legend>
+		<label for="job_title">Job Title:</label>
+		<select name="job_title" id="fltrByJobTitle">
+		</select>
+	</form>
+</div>
+<div class = "page_nav">
+	<a href="./offices">Offices</a>
+	<a href="./project_data">Project Data</a>
+	<a href="./certifications">Certifications</a>
+	<a href="./works_on">Assignments</a>
+</div>
+<script src="button.js"></script>

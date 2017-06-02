@@ -1,2 +1,2 @@
-# GeoSpatialDB2
-CS340 Final project
+# GeoSpatialDB
+A database for a  geospatial company-Final project for CS340
